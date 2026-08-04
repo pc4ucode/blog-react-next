@@ -20,6 +20,13 @@
     "source.fixAll.eslint": "explicit"
   },
 
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+  "coder-runner.ignoreSelection": true,
+  "code-runner.executorMap": {
+    "typescript": "clear ; npx tsx"
+  },
+
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -37,7 +44,7 @@
   },
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-        "text": "Write the entire commit message in [Your Language]. Do not use English."
+      "text": "Write the entire commit message in [Your Language]. Do not use English."
     }
-]
+  ]
 }
